@@ -31,9 +31,8 @@ El análisis econométrico mediante **correlaciones cruzadas y estructura de rez
 ## 📂 Estructura del Repositorio
 
 ```text
-├── data/
-│   ├── macroeconomia.db          # Base de datos relacional SQLite
-│   └── passthrough_dolar_ipc.csv # Dataset procesado listo para análisis
+├── macroeconomia.db          # Base de datos relacional SQLite
+├── passthrough_dolar_ipc.csv  # Dataset procesado listo para análisis
 ├── scripts/
 │   └── etl_passthrough.py        # Pipeline de extracción, limpieza y cálculo de rezagos
 ├── dashboard/
