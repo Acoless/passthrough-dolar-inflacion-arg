@@ -21,7 +21,7 @@ El análisis econométrico mediante **correlaciones cruzadas y estructura de rez
 ---
 
 ## 🛠️ Arquitectura Técnica y Tubería ETL
-1. **Extracción (Extract):** Scripts automatizados en Python consumiendo las APIs oficiales de indicadores macroeconómicos.
+1. **Extracción (Extract):** Scripts automatizados en Python consumiendo las APIs de **ArgentinaDatos** (Dólar Blue) e **INDEC** (IPC).
 2. **Transformación (Transform):** Limpieza, cálculo de variaciones porcentuales simples y compuestas, generación de variables rezagadas ($t-1, t-2, t-3$) e imputación de series temporales.
 3. **Almacenamiento (Load):** Modelado relacional y almacenamiento persistente en **SQLite** (`macroeconomia.db`).
 4. **Visualización (BI):** Tablero ejecutivo interactivo en **Power BI** con métricas clave (KPIs), serie histórica combinada y acumulados anuales.
@@ -38,7 +38,5 @@ El análisis econométrico mediante **correlaciones cruzadas y estructura de rez
 ├── dashboard/
 │   ├── dashboard_passthrough.pbix # Archivo interactivo de Power BI
 │   └── dashboard_preview.png     # Captura de pantalla del dashboard
-├── docs/
-│   └── Reporte_Ejecutivo.pdf     # Documento de resumen técnico
 ├── README.md
 └── LICENSE
