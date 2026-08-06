@@ -11,7 +11,7 @@ Proyecto **End-to-End** de Análisis de Datos e Ingeniería de Pipelines para ev
 
 ## 📌 Resumen Ejecutivo & Key Findings
 
-El análisis econométrico mediante **correlaciones cruzadas y estructura de rezagos (*lags*)** demuestra que el traspaso de una variación del Dólar Blue sobre el IPC no ocurre de manera instantánea en su totalidad, sino que presenta una inercia de absorción con su pico máximo a los 3 meses:
+El análisis econométrico mediante **correlaciones cruzadas y estructura de rezagos (*lags*)** demuestra que el traspaso de una variación del Dólar Blue sobre el IPC no ocurre de manera instantánea en su totalidad, sino que presenta una inercia de absorción con su pico máximo a los 3 meses (que es la ventana analizada):
 
 * **Efecto Inmediato ($t$):** `0.19` — Repaso directo inicial en productos dolarizados.
 * **Efecto a 1 mes ($t-1 \rightarrow t$):** `0.19` — Persistencia inercial de precios.
