@@ -16,7 +16,7 @@ El análisis econométrico mediante **correlaciones cruzadas y estructura de rez
 * **Efecto Inmediato ($t$):** `0.19` — Repaso directo inicial en productos dolarizados.
 * **Efecto a 1 mes ($t-1 \rightarrow t$):** `0.19` — Persistencia inercial de precios.
 * **Efecto a 2 meses ($t-2 \rightarrow t$):** `0.26` — Aceleración por reposición de stock.
-* **Pico de Impacto a 3 meses ($t-3 \rightarrow t$):** `0.31` — Absorción máxima del shock cambiario.
+* **Pico de Impacto a 3 meses ($t-3 \rightarrow t$):** `0.31` — Absorción máxima del shock cambiario de la ventana analizada (t a t3)
 
 ---
 
