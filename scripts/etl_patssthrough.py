@@ -103,7 +103,7 @@ plt.tight_layout()
 plt.show()
 
 correlacion = df_final['dolar_variacion_pct'].corr(df_final['inflacion_mensual'])
-print(f"📊 Coeficiente de correlación de Pearson entre Dólar e Inflación: {correlacion:.2f}")
+print(f" Coeficiente de correlación de Pearson entre Dólar e Inflación: {correlacion:.2f}")
 
 
 # %% [markdown]
@@ -122,7 +122,7 @@ print(f'Impacto a 2 meses (dolar t-2 -> Inflacion t): {corr_lag_2:.2f}')
 print(f'Impacto a 3 meses (dolar t-3 -> Inflacion t): {corr_lag_3:.2f}')
 
 # %% [markdown]
-# ## 📝 Conclusiones del Análisis de Pass-Through
+# ##  Conclusiones del Análisis de Pass-Through
 # * **Inercia Cambiaria:** La cotización del Dólar Blue presenta picos de volatilidad mucho más agresivos en comparación con la inflación del IPC.
 # * **Desfasaje Temporal:** El análisis de rezagos (*lags*) confirma que el impacto del dólar sobre los precios al consumidor alcanza su mayor correlación a los **3 meses de ocurrido el movimiento cambiario** (pasando de 0.19 a 0.31).
 
